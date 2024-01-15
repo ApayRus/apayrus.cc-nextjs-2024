@@ -22,6 +22,10 @@
 		white;
 }
 
+.background {
+	background-color: rgba(var(--main-color-rgb), 0.1);
+}
+
 a {
 	color: var(--main-color);
 	text-decoration: none;

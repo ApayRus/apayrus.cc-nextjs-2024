@@ -6,7 +6,7 @@ const roboto = Roboto({ weight: ['300'], subsets: ['cyrillic', 'latin'] })
 
 export const metadata: Metadata = {
 	title: 'ApayRus.cc',
-	description: 'Образовательные приложения'
+	description: 'Образовательные, языковые приложения'
 }
 
 export default function RootLayout({

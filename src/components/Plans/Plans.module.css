@@ -4,6 +4,13 @@
 	overflow-x: auto;
 	width: 100%;
 }
+
+@media only screen and (min-width: 992px) {
+	.container {
+		justify-content: space-around;
+	}
+}
+
 .item {
 	width: 75%;
 	flex: 0 0 auto;
@@ -11,6 +18,8 @@
 	/* 	display: flex;
 	flex-direction: column; */
 	position: relative;
+	max-width: 300px;
+	border-radius: 25px;
 }
 
 .item li::marker {

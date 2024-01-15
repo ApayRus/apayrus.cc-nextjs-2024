@@ -12,7 +12,7 @@ export default async function Home() {
 				<Header />
 			</header>
 
-			<section className={`gradientBackground`}>
+			<section className={styles.intro}>
 				<Intro />
 			</section>
 			<section className={styles.planes}>
