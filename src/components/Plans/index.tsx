@@ -50,7 +50,15 @@ const Plans = async () => {
 								href={`https://wa.me/+79887890224?text=${orderInLinkMessage}`}
 							>
 								<div className={styles.orderButtonContainer}>
-									<div className={styles.orderButton}>Заказать</div>
+									<div className={styles.orderButton}>
+										Заказать
+										<Image
+											width={24}
+											height={24}
+											src={`/images/social-media/whatsapp.svg`}
+											alt='whatsapp icon'
+										/>
+									</div>
 								</div>
 							</a>
 						</div>

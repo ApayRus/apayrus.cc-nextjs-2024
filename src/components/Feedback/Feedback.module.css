@@ -9,6 +9,9 @@
 	.container {
 		justify-content: space-around;
 	}
+	.item {
+		border-radius: 25px;
+	}
 }
 
 .avatar {
@@ -21,7 +24,6 @@
 	padding: 0.5rem;
 	/* display: flex; */
 	max-width: 300px;
-	border-radius: 25px;
 }
 
 .item h3 {

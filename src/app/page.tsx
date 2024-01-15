@@ -4,6 +4,7 @@ import styles from './page.module.css'
 import Header from '@/components/Header'
 import Intro from '@/components/Intro'
 import Plans from '@/components/Plans'
+import Footer from '@/components/Footer'
 
 export default async function Home() {
 	return (
@@ -23,6 +24,9 @@ export default async function Home() {
 				<h2>Отзывы</h2>
 				<Feedback />
 			</section>
+			<footer className={styles.footer}>
+				<Footer />
+			</footer>
 		</main>
 	)
 }

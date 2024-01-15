@@ -1,0 +1,15 @@
+.content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.askQuestion {
+	display: flex;
+	align-items: center;
+	color: var(--main-color);
+	font-weight: bold;
+}
+
+.askQuestion img {
+	margin-left: 0.5rem;
+}

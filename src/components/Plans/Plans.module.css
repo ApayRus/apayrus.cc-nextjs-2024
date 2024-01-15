@@ -9,6 +9,9 @@
 	.container {
 		justify-content: space-around;
 	}
+	.item {
+		border-radius: 25px;
+	}
 }
 
 .item {
@@ -19,7 +22,6 @@
 	flex-direction: column; */
 	position: relative;
 	max-width: 300px;
-	border-radius: 25px;
 }
 
 .item li::marker {
@@ -50,9 +52,13 @@ h4.price {
 	font-size: 1.3rem;
 	color: var(--main-color);
 	font-weight: bold;
-	display: inline-block;
+	display: inline-flex;
 	padding-inline: 1rem;
 	padding-block: 0.5rem;
+}
+
+.orderButton img {
+	margin-left: 0.5rem;
 }
 
 .content {

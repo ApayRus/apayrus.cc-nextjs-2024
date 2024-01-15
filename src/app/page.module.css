@@ -14,3 +14,9 @@
 .planes {
 	width: 100%;
 }
+
+.footer {
+	padding: 1rem;
+	padding-bottom: 1.5rem;
+	width: 100%;
+}
