@@ -1,0 +1,62 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+}
+
+.title,
+.subtitle {
+	font-family: Comfortaa;
+	margin-top: 0.25rem;
+	margin-bottom: 0.25rem;
+	margin-left: 0.8rem;
+}
+
+.subtitle {
+	padding: unset;
+	background: unset;
+}
+
+.title {
+	font-size: 2rem;
+	color: #1976d2;
+	font-weight: 100;
+	letter-spacing: 0.2rem;
+	line-height: 1.5rem;
+}
+
+.subtitle {
+	color: grey;
+	font-size: 1rem;
+	margin-top: 0px;
+	letter-spacing: 0.08rem;
+}
+
+.titles {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.logoAndTitles {
+	display: flex;
+	align-items: center;
+	margin-top: 2rem;
+	/* justify-content: center; */
+}
+
+.logo {
+	width: 70px;
+}
+
+.logo img {
+	width: 100%;
+}
+
+.socialMedias {
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+	width: 100%;
+}

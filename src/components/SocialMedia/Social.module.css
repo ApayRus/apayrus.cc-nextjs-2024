@@ -1,0 +1,11 @@
+.container {
+	display: flex;
+	justify-content: space-around;
+	height: 3rem;
+	width: 100%;
+}
+
+.iconContainer {
+	width: 1.5rem;
+	height: 1.5rem;
+}
