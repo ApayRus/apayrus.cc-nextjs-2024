@@ -18,6 +18,7 @@ const SocialIcons: React.FC = async () => {
 						className={styles.iconContainer}
 						href={path}
 						title={title}
+						target='_blank'
 					>
 						<Image
 							width={24}
