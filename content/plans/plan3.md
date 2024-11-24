@@ -1,7 +1,7 @@
 ---
 order: 3
-title: Задача
-price: сдельно
+title: Соцсеть
+price: ₽299k
 images:
   - images/work/content-creation.png
   - images/work/mobile-app.png

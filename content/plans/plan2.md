@@ -1,7 +1,7 @@
 ---
 order: 2
-title: Отдача
-price: ₽60k
+title: Упражнения
+price: ₽199k
 images:
   - images/exercises/cards.png
   - images/exercises/order-words.png

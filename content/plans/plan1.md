@@ -1,7 +1,7 @@
 ---
 order: 1
-title: Подача
-price: ₽30k
+title: Фразовый плеер
+price: ₽99k
 images:
   - images/player/video-player.png
   - images/player/audio-book.png
